@@ -1,8 +1,12 @@
 package org.acme.geometry;
 
-
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 
 public class PointTest {
     public static final double EPSILON = 1.0e-15;
@@ -68,4 +72,16 @@ public class PointTest {
         Assert.assertEquals(4.0, env.getYmax(), EPSILON);
     }
 
+    @Test
+    public void testAccept() throws UnsupportedEncodingException {
+        ByteArrayOutputStream os = new ByteArrayOutputStream();
+        PrintStream out = new PrintStream(os);
+        LogGeometryVisitor visitor = new LogGeometryVisitor(out);
+
+        Geometry geometry = new Point(new Coordinate(3.0, 4.0));
+        geometry.accept(visitor);
+        // result contiendra ce qui est écrit dans la console
+        String result = os.toString("UTF-8");
+        Assert.assertEquals("Je suis un point avec x=3.0 et y=4.0.",result.trim());
+    }
 }

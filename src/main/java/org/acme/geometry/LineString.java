@@ -49,8 +49,7 @@ public class LineString implements Geometry{
         for (int i = 0; i < points.size();i++) {
             points1.add(points.get(i));
         }
-        LineString ls2 = new LineString(points1);
-        return ls2;
+        return new LineString(points1);
     }
 
     @Override
@@ -59,7 +58,13 @@ public class LineString implements Geometry{
         for (int i = 0; i < getNumPoints(); i++) {
             builder.insert(getPointN(i).getCoordinate());
         }
-        Enveloppe env = builder.build();
-        return env;
+        return builder.build();
     }
+
+    @Override
+    public void accept(GeometryVisitor visitor) {
+            visitor.visit(this);
+    }
+
+
 }
