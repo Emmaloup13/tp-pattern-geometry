@@ -42,4 +42,19 @@ public class PointTest {
         Assert.assertEquals(p2.getCoordinate().getY(), p.getCoordinate().getY(), EPSILON);
 
     }
+
+    @Test
+    public void testClone1(){
+        Point p = new Point(new Coordinate(3.0, 4.0));
+        Point p2 = p.clone();
+        Assert.assertEquals(p.getCoordinate().getX(), p2.getCoordinate().getX(), EPSILON);
+        Assert.assertEquals(p.getCoordinate().getY(), p2.getCoordinate().getY(), EPSILON);
+    }
+    @Test
+    public void testClone2(){
+        Point p = new Point();
+        Point p2 = p.clone();
+        Assert.assertEquals(p.getCoordinate().getX(), p2.getCoordinate().getX(), EPSILON);
+        Assert.assertEquals(p.getCoordinate().getY(), p2.getCoordinate().getY(), EPSILON);
+    }
 }

@@ -43,18 +43,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/formation/IdeaProjects/tp4",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/formation/IdeaProjects/tp4&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.org.acme.geometry in tp-pattern-geometry">
+}</component>
+  <component name="RunManager" selected="JUnit.All in tp-pattern-geometry (4)">
     <configuration name="All in tp-pattern-geometry (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp-pattern-geometry" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in tp-pattern-geometry (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp-pattern-geometry" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in tp-pattern-geometry (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp-pattern-geometry" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -85,42 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp-pattern-geometry" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.acme.geometry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.acme.geometry" />
-      <option name="MAIN_CLASS_NAME" value="org.acme.geometry.PointTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.acme.geometry in tp-pattern-geometry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp-pattern-geometry" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.acme.geometry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.acme.geometry" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.org.acme.geometry in tp-pattern-geometry" />
-        <item itemvalue="JUnit.LineStringTest" />
-        <item itemvalue="JUnit.PointTest" />
+        <item itemvalue="JUnit.All in tp-pattern-geometry (4)" />
+        <item itemvalue="JUnit.All in tp-pattern-geometry (3)" />
         <item itemvalue="JUnit.All in tp-pattern-geometry (2)" />
         <item itemvalue="JUnit.All in tp-pattern-geometry" />
+        <item itemvalue="JUnit.LineStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,10 +123,13 @@
     <servers />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__4_.ic" NAME="All in tp-pattern-geometry (4) Coverage Results" MODIFIED="1673453167660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__3_.ic" NAME="All in tp-pattern-geometry (3) Coverage Results" MODIFIED="1673452548756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__4_.ic" NAME="All in tp-pattern-geometry (4) Coverage Results" MODIFIED="1673521275388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__3_.ic" NAME="All in tp-pattern-geometry (3) Coverage Results" MODIFIED="1673520571998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry.ic" NAME="All in tp-pattern-geometry Coverage Results" MODIFIED="1673466735719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__2_.ic" NAME="All in tp-pattern-geometry (2) Coverage Results" MODIFIED="1673452453897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__1_.ic" NAME="All in tp-pattern-geometry (1) Coverage Results" MODIFIED="1673449105473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__2_.ic" NAME="All in tp-pattern-geometry (2) Coverage Results" MODIFIED="1673520524707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__1_.ic" NAME="All in tp-pattern-geometry (1) Coverage Results" MODIFIED="1673520376002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tp_pattern_geometry$PointTest.ic" NAME="PointTest Coverage Results" MODIFIED="1673520337753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.acme.geometry.*</FILTER>
+    </SUITE>
   </component>
 </project>

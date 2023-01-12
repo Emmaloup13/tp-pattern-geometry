@@ -32,4 +32,11 @@ public class Point implements Geometry{
             this.coordinate = coordinate1;
         }
     }
+
+    @Override
+    public Point clone() {
+        Point p2 = new Point(new Coordinate(coordinate.getX(), coordinate.getY()));
+        return p2;
+    }
+
 }

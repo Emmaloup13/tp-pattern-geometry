@@ -42,14 +42,41 @@ public class LineStringTest {
 
     @Test
     public void testTranslate(){
+        Point a = new Point(new Coordinate(3.0, 4.0));
+        Point b = new Point(new Coordinate(1.0, 0.0));
+        List<Point> points = new ArrayList<>();
+        points.add(a);
+        points.add(b);
+        LineString ls = new LineString(points);
+        ls.translate(1.0,1.0);
+        Assert.assertEquals(4.0,ls.getPointN(0).getCoordinate().getX(), EPSILON);
+        Assert.assertEquals(5.0,ls.getPointN(0).getCoordinate().getY(), EPSILON);
+
+        Assert.assertEquals(2.0,ls.getPointN(1).getCoordinate().getX(), EPSILON);
+        Assert.assertEquals(1.0,ls.getPointN(1).getCoordinate().getY(), EPSILON);
+    }
+
+    @Test
+    public void testClone1(){
         LineString ls = GeometryFactory.createLineString();
+        LineString ls2 = ls.clone();
         for (int i = 0; i < ls.getNumPoints(); i++) {
             Point pi = ls.getPointN(i);
-            double xi = pi.getCoordinate().getX()+2.0;
-            double yi = pi.getCoordinate().getY()+3.0;
-            pi.translate(2.0,3.0);
-            Assert.assertEquals(xi, pi.getCoordinate().getX(), EPSILON);
-            Assert.assertEquals(yi, pi.getCoordinate().getY(), EPSILON);
+            Point pi2 = ls2.getPointN(i);
+            Assert.assertEquals(pi.getCoordinate().getX(),pi2.getCoordinate().getX(), EPSILON);
+            Assert.assertEquals(pi.getCoordinate().getY(),pi2.getCoordinate().getY(),EPSILON);
+        }
+    }
+
+    @Test
+    public void testClone2(){
+        LineString ls = new LineString();
+        LineString ls2 = ls.clone();
+        for (int i = 0; i < ls.getNumPoints(); i++) {
+            Point pi = ls.getPointN(i);
+            Point pi2 = ls2.getPointN(i);
+            Assert.assertEquals(pi.getCoordinate().getX(),pi2.getCoordinate().getX(), EPSILON);
+            Assert.assertEquals(pi.getCoordinate().getY(),pi2.getCoordinate().getY(),EPSILON);
         }
     }
 }
