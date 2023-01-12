@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LineStringTest {
+    public static final double EPSILON = 1.0e-15;
     @Test
     public void testDefaultConstructor(){
         LineString ls = new LineString();
@@ -37,5 +38,18 @@ public class LineStringTest {
     public void testIsEmpty(){
         LineString ls = new LineString();
         Assert.assertTrue(ls.isEmpty());
+    }
+
+    @Test
+    public void testTranslate(){
+        LineString ls = GeometryFactory.createLineString();
+        for (int i = 0; i < ls.getNumPoints(); i++) {
+            Point pi = ls.getPointN(i);
+            double xi = pi.getCoordinate().getX()+2.0;
+            double yi = pi.getCoordinate().getY()+3.0;
+            pi.translate(2.0,3.0);
+            Assert.assertEquals(xi, pi.getCoordinate().getX(), EPSILON);
+            Assert.assertEquals(yi, pi.getCoordinate().getY(), EPSILON);
+        }
     }
 }

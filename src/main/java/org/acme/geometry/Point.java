@@ -24,4 +24,12 @@ public class Point implements Geometry{
     public Boolean isEmpty() {
         return coordinate.isEmpty();
     }
+
+    @Override
+    public void translate(double dx, double dy) {
+        if(!coordinate.isEmpty()) {
+            Coordinate coordinate1 = new Coordinate(coordinate.getX() + dx, coordinate.getY() + dy);
+            this.coordinate = coordinate1;
+        }
+    }
 }

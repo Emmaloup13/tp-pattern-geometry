@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aeb88e17-212e-452e-b6aa-05f6548753f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/geometry/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/geometry/Coordinate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/geometry/Geometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/geometry/Geometry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/geometry/LineString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/geometry/LineString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/geometry/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/geometry/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/acme/geometry/CoordinateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/acme/geometry/CoordinateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/acme/geometry/GeometryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/acme/geometry/GeometryFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/acme/geometry/LineStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/acme/geometry/LineStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/acme/geometry/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/acme/geometry/PointTest.java" afterDir="false" />
     </list>
@@ -50,21 +47,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/emmab/OneDrive/Bureau/TSI/Java_Design_Patterns/tp-pattern-geometry",
+    "last_opened_file_path": "/home/formation/IdeaProjects/tp4",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in tp-pattern-geometry (2)">
-    <configuration name="All in tp-pattern-geometry (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp-pattern-geometry" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.org.acme.geometry in tp-pattern-geometry">
     <configuration name="All in tp-pattern-geometry (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp-pattern-geometry" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,13 +100,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.acme.geometry in tp-pattern-geometry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp-pattern-geometry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.acme.geometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.acme.geometry" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in tp-pattern-geometry (2)" />
-        <item itemvalue="JUnit.All in tp-pattern-geometry" />
-        <item itemvalue="JUnit.All in tp-pattern-geometry (1)" />
+        <item itemvalue="JUnit.org.acme.geometry in tp-pattern-geometry" />
         <item itemvalue="JUnit.LineStringTest" />
         <item itemvalue="JUnit.PointTest" />
+        <item itemvalue="JUnit.All in tp-pattern-geometry (2)" />
+        <item itemvalue="JUnit.All in tp-pattern-geometry" />
       </list>
     </recent_temporary>
   </component>
@@ -133,10 +136,10 @@
     <servers />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__3_.ic" NAME="All in tp-pattern-geometry (3) Coverage Results" MODIFIED="1673452548756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__2_.ic" NAME="All in tp-pattern-geometry (2) Coverage Results" MODIFIED="1673456017710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__1_.ic" NAME="All in tp-pattern-geometry (1) Coverage Results" MODIFIED="1673465961793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry.ic" NAME="All in tp-pattern-geometry Coverage Results" MODIFIED="1673466735719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__4_.ic" NAME="All in tp-pattern-geometry (4) Coverage Results" MODIFIED="1673453167660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__3_.ic" NAME="All in tp-pattern-geometry (3) Coverage Results" MODIFIED="1673452548756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry.ic" NAME="All in tp-pattern-geometry Coverage Results" MODIFIED="1673466735719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__2_.ic" NAME="All in tp-pattern-geometry (2) Coverage Results" MODIFIED="1673452453897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tp_pattern_geometry$All_in_tp_pattern_geometry__1_.ic" NAME="All in tp-pattern-geometry (1) Coverage Results" MODIFIED="1673449105473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
