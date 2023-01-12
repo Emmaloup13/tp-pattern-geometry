@@ -67,4 +67,5 @@ public class PointTest {
         Assert.assertEquals(4.0, env.getYmin(), EPSILON);
         Assert.assertEquals(4.0, env.getYmax(), EPSILON);
     }
+
 }
