@@ -39,4 +39,10 @@ public class Point implements Geometry{
         return p2;
     }
 
+    @Override
+    public Enveloppe getEnveloppe() {
+        Enveloppe enveloppe = new Enveloppe(coordinate, coordinate);
+        return enveloppe;
+    }
+
 }
