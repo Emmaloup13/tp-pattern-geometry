@@ -35,14 +35,12 @@ public class Point implements Geometry{
 
     @Override
     public Point clone() {
-        Point p2 = new Point(new Coordinate(coordinate.getX(), coordinate.getY()));
-        return p2;
+        return new Point(new Coordinate(coordinate.getX(), coordinate.getY()));
     }
 
     @Override
     public Enveloppe getEnveloppe() {
-        Enveloppe enveloppe = new Enveloppe(coordinate, coordinate);
-        return enveloppe;
+        return new Enveloppe(coordinate, coordinate);
     }
 
     @Override

@@ -37,17 +37,16 @@ public class LineString implements Geometry{
 
     @Override
     public void translate(double dx, double dy) {
-        for (int i = 0; i < points.size(); i++) {
-            points.get(i).translate(dx, dy);
+        for(Point p : points){
+            p.translate(dx,dy);
         }
-
     }
 
     @Override
     public LineString clone() {
         List<Point> points1 = new ArrayList<>();
-        for (int i = 0; i < points.size();i++) {
-            points1.add(points.get(i));
+        for(Point p: points){
+            points1.add(p);
         }
         return new LineString(points1);
     }

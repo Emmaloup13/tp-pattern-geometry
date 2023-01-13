@@ -20,8 +20,7 @@ public class EnveloppeBuilder {
         double ymax = Collections.max(yVals);
         Coordinate bottomLeft = new Coordinate(xmin,ymin);
         Coordinate topRight = new Coordinate(xmax,ymax);
-        Enveloppe env = new Enveloppe(bottomLeft, topRight);
-        return env;
+        return new Enveloppe(bottomLeft, topRight);
     }
 
     public List<Double> getxVals() {
